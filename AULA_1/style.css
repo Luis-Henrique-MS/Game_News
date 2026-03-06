@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.destaque {
+  position: fixed;
+  width: 100%;
+  background: white;
+  padding: 20px 40px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background-color: lch(99.73% 0.35 17.55);
+  color: lch(37.96% 71.37 35.9);
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+}
+
+.destaque h4 {
+  margin-left: 250px;
+}
+
+.destaques_nav {
+  margin-left: 20px;
+  display: flex;
+}
+
+.destaques_nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: hsl(345, 74%, 48%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-right: 20px;
+
+}
+
+.destaques_nav a:hover {
+  transform: translateX(5px);
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+  /* margin-inline: 6cm; //deixa o background até a borda da tela      */
+  display: flex;
+  background-color: oklab(62.793% 0.22489 0.1258 / 0.877);
+  color: #ffffff;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Seção full width */
+.imgEntrada {
+  width: 100%;
+  height: 600px;
+  /* altura da área */
+
+  background-image: url('banner.jpeg');
+  background-size: cover;
+  /* Faz a imagem cobrir tudo */
+  background-position: center;
+  /* Centraliza */
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Conteúdo interno */
+.img-content {
+  color: white;
+  margin-left: 100px;
+  margin-top: 500px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  margin-right: 20px;
+}
+
+
+.img-content:hover {
+  transform: translateX(5px);
+  color: hwb(0 0% 2%);
+}
+
+.home {
+  margin-inline: 150px;
+  padding: 30px;
+  background-color: #ffffff
+}
+
+.Navegador a {
+  text-decoration: none;
+  color: hwb(345 0% 0%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.imgEntrada {
+  position: relative;
+}
+
+.imgEntrada::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.img-content {
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 20px; */
+  position: relative
+}
+
+.titulo {
+  text-align: center;-
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+input {
+  position: absolute;
+  right: 200px;
+  /* lado direito do container */
+  padding: 3px;
+  border-radius: 15px;
+}
+
+/* Fundo vermelho da seção */
+.secaoNav {
+  background: #ffffff;
+  /* mantém o fundo vermelho */
+  padding: 30px 0;
+  /* espaço em cima e embaixo */
+}
+
+/* Card branco */
+.Navegador {
+  background: white;
+  width: 500px;
+  padding: 30px;
+  margin-left: 70px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+.Navegador a {
+  display: block;
+  text-decoration: none;
+  color: hwb(0 0% 0%);
+  font-weight: bold;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+/* hover */
+.Navegador a:hover {
+  transform: translateX(5px);
+  color: black;
+}
+
+#Steam {
+  background: white;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#Steam h2 {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#Steam h3 {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  ;
+}
+
+#Steam p {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#Steam img {
+  margin-top: 50px;
+}
+
+#Epic {
+  background: white;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#Epic h2 {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#Epic h3 {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  ;
+}
+
+#Epic p {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#Epic img {
+  margin-top: 50px;
+}
+
+#Xbox {
+  background: white;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#Xbox h2 {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#Xbox h3 {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  ;
+}
+
+#Xbox p {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#Xbox img {
+  margin-top: 50px;
+}
+
+#PSN {
+  background: white;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#PSN h2 {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#PSN h3 {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  ;
+}
+
+#PSN p {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#PSN img {
+  margin-top: 50px;
+}
+
+#Nintendo {
+  margin-top: 50px;
+  background: white;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#Nintendo h2 {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#Nintendo h3 {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  ;
+}
+
+#Nintendo p {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#Nintendo img {
+  margin-top: 50px;
+}
+
+#promo {
+  margin-top: 100px;
+  background: white;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /* bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#promo h2 {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#promo h3 {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  ;
+}
+
+#promo p {
+  padding 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#promo a {
+  text-decoration: line-through;
+  color: red;
+}
+
+#about {
+  margin-top: 100px;
+  width: 1330px;
+  padding: 30px;
+  margin-left: 250px;
+  /* centraliza */
+  border-radius: 20px;
+  /*  bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+#about h3{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contato_nav a {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s;
+}
+
+#contato_nav a:hover {
+  transform: translateX(5px);
+  color: black;
+}
